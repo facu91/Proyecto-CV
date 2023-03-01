@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+background: lightblue;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.contenedor{
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgb(0,0,0,0,1);
+}
+.izquierda{
+  position: relative;
+  background: #003147;
+  padding: 40px;
+}
+.textoperfil{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255,255,0.2);
+}
+.img{
+  position: relative;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.textoperfil h2 span{
+  display: flex;
+  justify-content: center;
+  font-size: 0.8em;
+  font-weight: 300;
+
+}
+.infodecontacto{
+  padding-top: 40px;
+}
+.titulo{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.infodecontacto ul{
+  position: relative;
+}
+.infodecontacto ul li{
+  list-style: none;
+  margin: 10px;
+  cursor: pointer;
+}
+.infodecontacto ul li .icono{
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #03a9f4;
+}
+.infodecontacto ul li .texto{
+  color: #fff;
+  font-weight: 250;
+}
+.derecha{
+  position: relative;
+  background: #fff;
+  padding: 40px;
+}
+.habilidades{
+  margin-bottom: 50px;
+}
+.habilidades: :last-child{
+  margin-bottom: 0;
+}
+.titulo2{
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+p{
+  list-style-position: outside;
+  list-style-type: circle;
+  color: #333;
+  margin: 15px;
+}
+.laboral .caja{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.laboral .caja .compañia{
+  min-width: 150px;
+}
+.laboral .caja .compañia h5{
+  text-transform: uppercase;
+  color: #848c90;
+  font-weight: 600;
+  margin: 15px;
+  }
+  .laboral .caja .texto h3{
+text-transform: uppercase;
+color: #2a7da2;
+font-size: 16px;
+margin-bottom: 10px;
+  }
+
